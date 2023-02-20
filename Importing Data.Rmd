@@ -1,0 +1,56 @@
+---
+title: "Importing Data"
+author: "Amanda Mae Woodward"
+date: "2023-02-20"
+output: html_document
+---
+
+## Learning Outcomes for This video:
+
+By the end of the video, you should be able to:
+- Describe File Structures and Working Directories
+- Import Data to R Studio
+- Recognize Common Errors with importing data
+
+### Learning Outcome #1:  Describe File Structures and Working Directories
+
+#### File Structure:
+
+#### Working Directory: 
+```{r}
+getwd()
+#setwd(dir = )
+```
+
+### Learning Outcome #2: Import Data to R Studio
+
+#### From an R Project
+```{r}
+library(readr)
+parksAndRecData <- read_csv("parksAndRecData.csv")
+```
+
+#### Using Import Dataset
+```{r}
+PaRdata <- read.csv("~/Desktop/R Studio Videos/parksAndRecData.csv")
+#change file path to wherever it's saved on your computer 
+```
+
+#### Using Code 
+```{r}
+dat<- read.csv("~/Desktop/R Studio Videos/parksAndRecData.csv")
+
+```
+
+### Learning Outcome #3: Common Errors with importing data
+
+#### Incorrect File path
+```{r}
+ParksData<- read.csv("parksandRecData.csv")
+```
+
+#### Not including code in Markdown File 
+```{r}
+ParksData
+```
+

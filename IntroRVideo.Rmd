@@ -1,0 +1,59 @@
+---
+title: "R Markdown file"
+author: "Amanda Mae Woodward"
+date: "2023-02-20"
+output: html_document
+---
+
+## Learning Outcomes for This video:
+
+By the end of the video, you should be able to:
+
+-   explain why R Studio can be beneficial
+-   identify and describe the function of each of the R Studio Windows
+-   describe how to enter text and code into an R Markdown File
+-   alter the appearance of R Studio
+
+### Learning Outcome 1: explain why R Studio can be beneficial
+
+**R Studio is great!**
+
+-   write reproducible code
+-   free, open source
+-   combine text and code into a single document
+-   can see variables, plots, input and output easily
+
+### Learning Outcome 2: identify and describe the function of each of the R Studio Windows
+
+-   R Markdown File: where you want to put things you're saving
+-   Console: scrap paper, R will send you helpful messages here
+-   Environment: list of variables, data sets, and functions
+-   Files/Plots/Packages/Help: allow you see your graphs, help files for functions, and use your files
+
+### Learning Outcome 3:describe how to enter text and code into an R Markdown File
+
+#### Text
+
+you can enter text by writing it as I am now. R Studio has a cheat sheet for formatting [here](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
+#### Code Chunk
+
+to enter code, you need to make a code chunk: 
+
+```{r}
+3+7 
+#this is a comment 
+"hello"
+```
+
+3+7 
+
+#### Learning Outcome 4: alter the appearance of R Studio
+
+Tools >> Global Options
+
+Appearance: Can change color scheme 
+R Markdown: change where output occurs 
+
+
+
